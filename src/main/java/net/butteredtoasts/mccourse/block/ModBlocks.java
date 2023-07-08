@@ -2,6 +2,7 @@ package net.butteredtoasts.mccourse.block;
 
 import net.butteredtoasts.mccourse.MCCourseMod;
 import net.butteredtoasts.mccourse.item.ModItems;
+import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
@@ -29,8 +30,7 @@ public class ModBlocks {
             () -> new Block(BlockBehaviour.Properties.of().mapColor(MapColor.METAL).instrument(NoteBlockInstrument.IRON_XYLOPHONE)
                     .requiresCorrectToolForDrops().strength(5.0F, 6.0F).sound(SoundType.METAL)));
     public static final RegistryObject<Block> ALEXANDRITE_ORE = registerBlock("alexandrite_ore",
-            () -> new Block(BlockBehaviour.Properties.of().mapColor(MapColor.STONE).instrument(NoteBlockInstrument.IRON_XYLOPHONE)
-                    .requiresCorrectToolForDrops().strength(5.0F, 6.0F).sound(SoundType.STONE)));
+            () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.STONE).requiresCorrectToolForDrops(), UniformInt.of(2, 5)));
 
     private static <T extends Block> RegistryObject<T> registerBlock (String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
