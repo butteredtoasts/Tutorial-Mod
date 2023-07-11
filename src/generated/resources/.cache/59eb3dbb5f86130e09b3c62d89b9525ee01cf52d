@@ -1,5 +1,7 @@
-// 1.20.1	2023-07-10T13:12:23.0897543	Loot Tables
+// 1.20.1	2023-07-10T16:52:57.9038495	Loot Tables
 3c04bafc8e377b8b3a0acec4fb355ebe506bd32a data/mccourse/loot_tables/blocks/alexandrite_block.json
 173e2b752487e499d222c8b2083fdff6389c81f0 data/mccourse/loot_tables/blocks/alexandrite_ore.json
+cc29b2bba8edc06773081536354828bdfaa3167c data/mccourse/loot_tables/blocks/alexandrite_slab.json
+70fab8983f4f8d670d47e55156fc769bf1f8a132 data/mccourse/loot_tables/blocks/alexandrite_stairs.json
 7b06f064286af9b42cc2af9b330255bdfc434d90 data/mccourse/loot_tables/blocks/raw_alexandrite_block.json
 7d8fa6812bfae52dfc6b76bdf45977c92f8766af data/mccourse/loot_tables/blocks/sound_block.json

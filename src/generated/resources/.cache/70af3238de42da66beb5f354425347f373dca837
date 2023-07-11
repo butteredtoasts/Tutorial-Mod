@@ -1,2 +1,4 @@
-// 1.20.1	2023-07-10T13:12:23.0867787	Block Tags
+// 1.20.1	2023-07-10T16:52:57.9023617	Block Tags
 5f226d87fb0a63437b0af494c4870fc24b7dfd82 data/mccourse/tags/blocks/metal_detector_valuables.json
+905f9fb989b2a02b8a9d68a380a4fd916a0c2d83 data/minecraft/tags/blocks/mineable/pickaxe.json
+905f9fb989b2a02b8a9d68a380a4fd916a0c2d83 data/minecraft/tags/blocks/needs_iron_tool.json
